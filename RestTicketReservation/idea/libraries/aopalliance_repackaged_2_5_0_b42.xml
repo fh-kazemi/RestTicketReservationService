@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="aopalliance-repackaged-2.5.0-b42">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/aopalliance-repackaged-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/cdi-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/el-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/hk2-api-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/hk2-locator-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/hk2-utils-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javassist-3.22.0-CR2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.inject-2.5.0-b42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.json-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.json-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.json.bind-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.servlet-api-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/javax.ws.rs-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jaxb-api-2.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-container-servlet-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-container-servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-hk2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-media-jaxb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-media-json-binding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-media-sse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jersey-server.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/jsr250-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/mysql-connector-java-5.1.39-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/persistence-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/validation-api-1.1.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/yasson-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/org.osgi.core-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Library/Jersey/org.osgi.core-4.2.0.jar!/OSGI-OPT/src" />
+    </SOURCES>
+  </library>
+</component>
