@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Panel</title>
+</head>
+<body>
+<h1 style="background-color:powderblue;"><p style="text-align:center">Kazemi Agency!</p></h1>
+
+<label><b>Find Flight By Source And Destination City</b></label>
+<form action="findflightbySrDs" method="post">
+    <label>Source City</label><input type="text" name="sourceCity"><br>
+    <label>Destination City</label><input type="text" name="destinationCity"><br>
+    <input type="submit" value="Find">
+</form>
+<hr>
+<label><b>Find Flight By Date</b></label>
+<form action="findflightbydate" method="post">
+    <label>Flight Date</label><input type="text" name="flightDate"><br>
+    <input type="submit" value="Find">
+</form>
+<hr>
+<label><b>Buy Ticket</b></label>
+<form action="buy" method="post">
+    <label>Flight ID</label><input type="number" name="flightId"><br>
+    <label>Customer Name</label><input type="text" name="customerName"><br>
+    <input type="submit" value="Buy">
+</form>
+<hr>
+<label><b>Cancel Ticket</b></label>
+<form action="cancel" method="post">
+    <label>Ticket ID</label><input type="number" name="ticketId"><br>
+    <input type="submit" value="Cancel Ticket">
+</form>
+<hr>
+<label><b>Show Ticket</b></label>
+<form action="show" method="post">
+    <label>Ticket ID</label><input type="number" name="ticketId"><br>
+    <input type="submit" value="Show Ticket">
+</form>
+</body>
+</html>
