@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>REST</title>
+    </head>
+    <body>
+        <div id="demo">
+
+            <button id="get">Get</button>
+            <button id="post">Post</button>
+            <button id="put">Put</button>
+            <button id="delete">Delete</button>
+            <br><br>
+
+                <label for="data"><h2>Data: </h2></label><br>
+                <textarea id="data" rows="10" cols="30" name="body" value=""></textarea><br><br>
+            <label for="url"><h2>URL: </h2></label>
+            <input type="text" id="url"><br><br>
+            <pre id="result"></pre>
+        </div>
+
+        <script>
+            $("#get").click(function () {
+                var url = $("#url").val();
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    success: function (result) {
+                        $("#result").text("");
+                        $("#result").text(JSON.stringify(result, undefined, 2));
+                    }
+                });
+            });
+
+            $("#post").click(function () {
+                var url = $("#url").val();
+                var data = $("#data").val();
+                $.ajax({
+                    url: url,
+                    type: 'POST',
+                    data: data,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data, status) {
+                        $("#result").text("");
+                        $("#result").append(result);
+                    }
+                });
+            });
+
+            $("#put").click(function () {
+                var url = $("#url").val();
+                var data= $("#data").val();
+                $.ajax({
+                    url: url,
+                    type: 'PUT',
+                    data: data,
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data, status) {
+                        $("#result").text("");
+                        $("#result").append(result);
+                    }
+                });
+            });
+
+            $("#delete").click(function () {
+                var url = $("#url").val();
+
+                $.ajax({
+                    type: "DELETE",
+                    url: url,
+                    success: function (result) {
+                        $("#result").text("");
+                        $("#result").append(result);
+                    }
+                });
+            });
+        </script>
+
+    </body>
+</html>
